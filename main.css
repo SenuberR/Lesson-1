@@ -1,0 +1,49 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet"> */
+
+
+
+.h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    display: inline-block;
+}
+
+
+.paragraph{
+    color: rgb(18, 202, 202);
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: blue; */
+    border: 5px solid red;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image img{
+    max width: 100px;
+    height: 400px;
+    padding: auto;
+    object-fit: cover;
+
+}
+
